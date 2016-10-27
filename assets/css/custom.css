@@ -116,7 +116,6 @@ img{
 	margin-left: -35px;
 }
 
-
 #price-timeline h4 {
 	margin: 0 0 10px;
 }
@@ -126,7 +125,6 @@ img{
 	font-weight: bold;
 	display: block;
 }
-
 
 /* =====  LAYOUT ======  */
 
@@ -138,7 +136,6 @@ section {
 	text-align: center;
 }
 
-
 section h2 {
 	margin: 20px 0 40px;
 }
@@ -146,7 +143,6 @@ section h2 {
 section h3 {
 	margin: 30px 0 10px;
 }
-
 
 #optin {
 	background: #3e4249;
@@ -161,8 +157,27 @@ section h3 {
 	margin: 7px 0 0 0;
 }
 
-
-
 #who-benefits {
 	background: white;
 }
+
+#course-features {
+	background: #3e4249;
+	color: white;
+	text-align: center;
+}
+
+/* #### CUSTOM ICON SPRITES #### */
+i.ci {
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background: url('../img/icon-sprite.png') no-repeat;
+}
+
+.ci.ci-computer 		{ background-position: 0 0; }
+.ci.ci-watch 				{ background-position: -40px 0; }
+.ci.ci-calendar 		{ background-position: -80px 0; }
+.ci.ci-community 		{ background-position: -120px 0; }
+.ci.ci-instructor 	{ background-position: -160px 0; }
+.ci.ci-device 			{ background-position: -200px 0; }
